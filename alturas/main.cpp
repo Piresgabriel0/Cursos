@@ -7,7 +7,7 @@ int main(){
     int n, nmenores = 0;
     double alturatotal = 0, alturamedia, percentualMenores;
 
-    cout << "Quantas pessoas serao digitadas? ";
+    cout << "Quantas pessoas serao digitadass? ";
     cin >> n;
 
     string nomes[n];
