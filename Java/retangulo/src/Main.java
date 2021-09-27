@@ -10,7 +10,7 @@ public class Main {
 		
 		double base, altura, area, perimetro, diagonal;
 
-	    System.out.print("Base do retangulo: ");
+	    System.out.print("Base do retangulo_: ");
 	    base = sc.nextDouble();
 
 	    System.out.print("Altura do retangulo: ");
