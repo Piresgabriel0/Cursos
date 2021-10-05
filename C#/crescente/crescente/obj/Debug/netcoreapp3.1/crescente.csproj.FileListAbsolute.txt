@@ -1,0 +1,14 @@
+C:\Users\PeraMen159\Documents\Projetos\Cursos\C#\crescente\crescente\bin\Debug\netcoreapp3.1\crescente.exe
+C:\Users\PeraMen159\Documents\Projetos\Cursos\C#\crescente\crescente\bin\Debug\netcoreapp3.1\crescente.deps.json
+C:\Users\PeraMen159\Documents\Projetos\Cursos\C#\crescente\crescente\bin\Debug\netcoreapp3.1\crescente.runtimeconfig.json
+C:\Users\PeraMen159\Documents\Projetos\Cursos\C#\crescente\crescente\bin\Debug\netcoreapp3.1\crescente.runtimeconfig.dev.json
+C:\Users\PeraMen159\Documents\Projetos\Cursos\C#\crescente\crescente\bin\Debug\netcoreapp3.1\crescente.dll
+C:\Users\PeraMen159\Documents\Projetos\Cursos\C#\crescente\crescente\bin\Debug\netcoreapp3.1\crescente.pdb
+C:\Users\PeraMen159\Documents\Projetos\Cursos\C#\crescente\crescente\obj\Debug\netcoreapp3.1\crescente.csproj.AssemblyReference.cache
+C:\Users\PeraMen159\Documents\Projetos\Cursos\C#\crescente\crescente\obj\Debug\netcoreapp3.1\crescente.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PeraMen159\Documents\Projetos\Cursos\C#\crescente\crescente\obj\Debug\netcoreapp3.1\crescente.AssemblyInfoInputs.cache
+C:\Users\PeraMen159\Documents\Projetos\Cursos\C#\crescente\crescente\obj\Debug\netcoreapp3.1\crescente.AssemblyInfo.cs
+C:\Users\PeraMen159\Documents\Projetos\Cursos\C#\crescente\crescente\obj\Debug\netcoreapp3.1\crescente.csproj.CoreCompileInputs.cache
+C:\Users\PeraMen159\Documents\Projetos\Cursos\C#\crescente\crescente\obj\Debug\netcoreapp3.1\crescente.dll
+C:\Users\PeraMen159\Documents\Projetos\Cursos\C#\crescente\crescente\obj\Debug\netcoreapp3.1\crescente.pdb
+C:\Users\PeraMen159\Documents\Projetos\Cursos\C#\crescente\crescente\obj\Debug\netcoreapp3.1\crescente.genruntimeconfig.cache
