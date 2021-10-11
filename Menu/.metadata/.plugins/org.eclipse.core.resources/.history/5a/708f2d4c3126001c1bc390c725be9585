@@ -1,0 +1,95 @@
+package projeto.menu;
+import java.util.Scanner;
+
+   public class Menu {
+  
+  
+  
+  
+	public static void menu () {
+	
+	System.out.println("-------------Menu de Funcionários---------------");
+	System.out.println("              1 - Cadastro                      ");
+	System.out.println("              2 - Listar                        ");
+	System.out.println("              3 - Pesquisar                     ");
+	System.out.println("              4 - Ponto                         ");
+	System.out.println("              5 - Sair                          ");
+	System.out.println("            Escolha uma opçao:                  ");
+	
+	}
+
+	
+	private static void Cadastro() {	
+	 Scanner leitura = new Scanner(System.in);	
+   
+	 String nome, Sexo;
+	 int Data, Numero, CPF;
+	 
+	 
+	 do{
+	  System.out.println("Nome completo: ");
+	  nome = leitura.nextLine();
+	 }while(nome.length() < 1 || nome.length() > 30);	 
+	 
+	 System.out.println("CPF: ");
+	 CPF = leitura.nextInt();
+	 
+	 System.out.println("Data de Nascimento:  ");
+	 Data = leitura.nextInt();
+	  
+	 
+	}
+
+	private static void Listar() {
+	
+	}	
+		
+	private static void Pesquisar() {	
+		
+	}
+
+	private static void Ponto() {	
+		
+	}
+
+	private static void Sair() {	
+		System.exit(0);
+		
+	}
+		
+	public static void main(String[] args) {
+	
+		int opcao = 0;
+		
+		Scanner ler = new Scanner(System.in);
+		
+		menu();
+		
+		opcao = ler.nextInt();
+		
+		switch(opcao){
+		case 1:
+			Cadastro();
+			break;
+		case 2:
+			Listar();
+			break;
+		case 3:
+			Pesquisar();
+			break;
+		case 4:
+			Ponto();
+			break;
+		case 5:
+			Sair();
+			break;
+			
+	    default:			
+			System.out.println("Opçao invalida, reinicie e tente novamente!");
+		
+		
+		}			
+			
+	}
+
+}

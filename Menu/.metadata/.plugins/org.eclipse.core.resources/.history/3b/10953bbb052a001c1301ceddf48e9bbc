@@ -1,0 +1,107 @@
+package projeto.menu;
+
+import java.io.IOException;
+import java.util.Scanner;
+import javax.swing.JOptionPane;
+
+public class Menu {
+
+	public static void menu() {
+
+		System.out.println("-------------Menu de Funcionários---------------");
+		System.out.println("              1 - Cadastro                      ");
+		System.out.println("              2 - Listar                        ");
+		System.out.println("              3 - Pesquisar                     ");
+		System.out.println("              4 - Ponto                         ");
+		System.out.println("              5 - Sair                          ");
+		System.out.println("            Escolha uma opçao:                  ");
+
+	}
+
+	private static void Cadastro() {
+		Scanner leitura = new Scanner(System.in);
+
+		Funcionario funcionario = new Funcionario();
+		
+		
+		
+			System.out.println("Nome completo: ");
+			funcionario.setNome(leitura.nextLine());
+	
+		System.out.println("CPF: ");
+		funcionario.setCpf(leitura.nextLine());
+
+		System.out.println("Data de Nascimento:  ");
+		funcionario.setData(leitura.nextInt());
+
+		do {
+			System.out.println("Sexo F ou M: ");
+			try {
+				sexo = (char) System.in.read();
+			} catch (IOException e) {
+				e.printStackTrace();
+			}
+		} while (sexo != 'F' && sexo != 'M');
+
+		System.out.println("Número de celular: ");
+		funcionario.setNumero(leitura.nextInt());
+
+	}
+
+	private static void Listar() {
+
+	}
+
+	private static void Pesquisar() {
+
+	}
+
+	private static void Ponto() {
+
+	}
+
+	private static void Sair() {
+		System.exit(0);
+	}
+
+	public static void main(String[] args) {
+
+	
+		int opcao = 0;
+
+		
+		while (opcao != 5) 
+		{
+			Scanner ler = new Scanner(System.in);
+
+			menu();
+
+			opcao = Integer.parseInt(JOptionPane.showInputDialog("opçao")); // ler.nextInt();
+
+			switch (opcao) {
+			case 1:
+				Cadastro();
+				break;
+			case 2:
+				Listar();
+				break;
+			case 3:
+				Pesquisar();
+				break;
+			case 4:
+				Ponto();
+				break;
+			case 5:
+				Sair();
+				break;
+
+			default:
+				System.out.println("Opção inválida, reinicie e tente novamente.");
+			}
+			
+		}   
+		
+		
+
+	}
+}
